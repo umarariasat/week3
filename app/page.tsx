@@ -19,7 +19,7 @@ export default async function Home() {
         </div>
 
         {userId ? (
-          <UserButton afterSignOutUrl="/" />
+          <UserButton />
         ) : (
           <div className="flex gap-3">
             <Link
